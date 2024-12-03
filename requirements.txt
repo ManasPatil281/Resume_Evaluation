@@ -1,15 +1,11 @@
-streamlit
-langchain
-langchain-core
-langchain-groq
-langchain-huggingface
-langchain-text-splitters
-langchain-community
-PyPDF2
-faiss-cpu
-python-dotenv
-google-generativeai
-pandas
-jsonlib-python3
-io
-tempfile
+streamlit==1.27.0  # Streamlit for building the app
+langchain==0.0.250  # LangChain for chain creation and processing
+langchain-core==0.0.20  # Core LangChain utilities
+langchain-community==0.0.5  # Community extensions like PyPDFLoader
+langchain-huggingface==0.0.3  # HuggingFace embeddings support
+langchain-groq==0.0.2  # Groq-based language model support
+faiss-cpu==1.7.4.post2  # FAISS for vector store creation
+google-generativeai==0.2.0  # Google Generative AI library
+pandas==2.1.1  # Pandas for DataFrame processing
+python-dotenv==1.0.0  # For environment variable loading
+PyPDF2==3.1.0  # For PDF loading (used by PyPDFLoader)
